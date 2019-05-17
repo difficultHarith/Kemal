@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+* {
+  font-family: "Segoe UI";
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow: none;
+  scroll-behavior: smooth;
+}
+
+nav {
+  background-color: white;
+  position: fixed;
+  display: block;
+  height: 40px;
+  width: 100%;
+  box-shadow: 5px 5px 18px #888888;
+  z-index: 10;
+}
+
+.logo a p {  
+  display: inline-block;
+  float: left;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: grey;
+  transition: color 1s;
+}
+
+.logo a p:hover {  
+  display: inline-block;
+  float: left;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: lime;
+}
+
+.links a p{
+  display: inline-block;
+  float: right;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: grey;
+  transition: color 1s;
+}
+
+.links * :hover{
+  display: inline-block;
+  float: right;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: lime;
+}
+
+#main {
+  margin-top: 40px;
+}
+
+.spacer {
+  border-bottom: 3px solid grey;
+  position: relative;
+  display: block;
+  width: 70%;
+  margin: 2vh auto;
+}
+
+ h1 {
+  font-size: 60px;
+}
+
+#first {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  padding: 30px;
+/*  line-height: 1.6em*/;
+}
+
+#first .text {
+  margin-top: 30px;
+}
+
+#first .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+}
+
+.icon {
+  height: 100%;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+}
+
+.icon img {
+  width: 190px;
+  height: auto;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.icon p {
+  font-size: 20px;
+  padding: 5px;
+}
+
+#third .container .quote-card img {
+  display: block;
+  width: 70%;
+  height: 70%;
+  background-color: white;
+  align-self: center;
+  border-radius: 50%;
+  margin: auto;
+  box-shadow: 5px 5px 18px #888888;
+}
+
+#third .container {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin: 0px;
+  background-color: white;
+}
+
+#third .container .quote-card {
+  display: grid;
+  grid-template-columns: 40vw 1fr;
+  height: 40vw;
+}
+
+#third .container .quote-card.second {
+  display: grid;
+  grid-template-columns: 1fr 40vw !important; 
+}
+
+#third .container .quote-card .text {
+  background-color: #91DC5A;
+  text-align: center;
+  color: white;
+  font-size: auto;
+  padding: 10px;
+}
+
+#third .container .quote-card .text .quote-text{
+  font-style: italic;
+}
+
+#third .container .quote-card .text h1{
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+
+#third .container .quote-card .text p{
+  font-size: 20px;
+}
+
+#fourth {
+  text-align: center;
+}
+
+#fourth p {
+  padding: 30px;
+}
+
+footer {
+  background-color: rgb(100, 100, 100);
+  color: white;
+}
+
+footer .last {
+  margin-top: 10px;
+}

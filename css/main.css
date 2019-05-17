@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+* {
+  font-family: "Segoe UI";
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow: none;
+  scroll-behavior: smooth;
+}
+
+.warning {
+  background-color: red;
+  color: white;
+  padding: 5px 5px 5px 10px;
+}
+
+nav {
+  background-color: white;
+  position: fixed;
+  display: block;
+  height: 70px;
+  width: 100%;
+  box-shadow: 5px 5px 18px #888888;
+  z-index: 10;
+}
+
+.logo a p {  
+  display: inline-block;
+  float: left;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: grey;
+  transition: color 1s;
+}
+
+.logo a p:hover {  
+  display: inline-block;
+  float: left;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: lime;
+}
+
+.links a p{
+  display: inline-block;
+  float: right;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: grey;
+  transition: color 1s;
+}
+
+.links * :hover{
+  display: inline-block;
+  float: right;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: lime;
+}
+
+#main {
+  margin-top: 70px;
+}
+
+.spacer {
+  border-bottom: 3px solid grey;
+  position: relative;
+  display: inline-block;
+  width: 70%;
+  margin: 2vh auto;
+}
+
+.welcome {
+  background-image: url("https://cdn.allwallpaper.in/wallpapers/706x400/11526/green-forest-road-706x400-wallpaper.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.welcome .caption {
+  font-family: 'Sunflower', serif;
+  font-size: 1.5vw;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 1vh 1vw;
+  line-height: 3em;
+  display: inline-block;
+  position: relative;
+  transform: translateY(100%);
+  width: 80%;
+  height: auto;
+}
+
+.welcome .caption h1 {
+  text-transform: uppercase;
+  font-size: 6vw;
+}
+
+.welcomeLink {
+  background-color: #91DC5A/*green*/;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 3px 10px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.welcomeLink :hover {
+  background-color: white;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 3px 10px;
+  color: #91DC5A;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#first h1 {
+  font-size: 60px;
+}
+
+#first {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  padding: 30px;
+  line-height: 1.6em;
+}
+
+#first .text {
+  margin-top: 30px;
+}
+
+#first .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+}
+
+.icon {
+  height: 100%;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+}
+
+.icon img {
+  width: 100px;
+  height: 100px;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.icon p {
+  font-size: 20px;
+}
+
+footer {
+  background-color: rgb(100, 100, 100);
+  color: white;
+}
+
+footer .last {
+  margin-top: 10px;
+}
